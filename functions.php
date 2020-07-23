@@ -134,7 +134,7 @@ function cities_meta_box()
 
 add_action('add_meta_boxes', 'cities_meta_box');
 
-// метабокс с селектом команд
+// метабокс с селектом городов
 function cities_meta_box_callback($post)
 {
 	$cities = get_posts(array('post_type' => 'cities', 'posts_per_page' => -1, 'orderby' => 'post_title', 'order' => 'ASC'));
@@ -158,5 +158,5 @@ function cities_meta_box_callback($post)
 			</ul>
 		</div>';
 	} else
-		echo 'Команд нет...';
+		echo 'Городов нет...';
 }
