@@ -75,7 +75,7 @@ function understrap_realty_post_type()
 				'all_items' => esc_html__('all properties', 'understrap'),
 				'view_item' => esc_html__('Viewing real estate on the site', 'understrap'),
 				'search_items' => esc_html__('Search property', 'understrap'),
-				'not_found' =>  esc_html__('property not found.',),
+				'not_found' =>  esc_html__('property not found.', 'understrap'),
 				'not_found_in_trash' => esc_html__('There is no property in the cart.', 'understrap'),
 				'menu_name' => esc_html__('Realty', 'understrap')
 			),
