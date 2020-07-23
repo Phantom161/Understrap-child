@@ -24,13 +24,13 @@
 					<?php
 					if (get_field('informacziya_stoimost')) { ?>
 					<?php
-						$price = esc_html__(get_field('informacziya_stoimost'));
+						$price = esc_html(get_field('informacziya_stoimost'));
 						$price = number_format($price, 0, ',', ' ');
 						echo '<span class="job_post"><b>' . $price . ' руб.</b></span>';
 						?>
 					<?php }
 					if (get_field('informacziya_adres')) { ?>
-					<p><?php esc_html__(the_field('informacziya_adres')); ?></p>
+					<p><?php esc_html(the_field('informacziya_adres')); ?></p>
 					<?php } ?>
 					<div>
 						<?php if (get_field('informacziya')) { ?>
@@ -38,19 +38,19 @@
 							<?php if (get_field('informacziya_ploshhad')) { ?>
 							<div class="col">
 								<span>Площадь:</span>
-								<p><?php esc_html__(the_field('informacziya_ploshhad')); ?> м<sup>2</sup></p>
+								<p><?php esc_html(the_field('informacziya_ploshhad')); ?> м<sup>2</sup></p>
 							</div>
 							<?php }
 								if (get_field('informacziya_zhilaya_ploshhad')) { ?>
 							<div class="col">
 								<span>Жилая площадь:</span>
-								<p><?php esc_html__(the_field('informacziya_zhilaya_ploshhad')); ?> м<sup>2</sup></p>
+								<p><?php esc_html(the_field('informacziya_zhilaya_ploshhad')); ?> м<sup>2</sup></p>
 							</div>
 							<?php }
 								if (get_field('informacziya_etazh')) { ?>
 							<div class="col">
 								<span>Этаж:</span>
-								<p><?php esc_html__(the_field('informacziya_etazh')); ?></p>
+								<p><?php esc_html(the_field('informacziya_etazh')); ?></p>
 							</div>
 							<?php } ?>
 						</div>

@@ -32,19 +32,19 @@ defined('ABSPATH') || exit;
 			<?php if (get_field('informacziya_ploshhad')) { ?>
 			<div class="col">
 				<p>Площадь:</p>
-				<span><?php esc_html__(the_field('informacziya_ploshhad')); ?> м<sup>2</sup></span>
+				<span><?php esc_html(the_field('informacziya_ploshhad')); ?> м<sup>2</sup></span>
 			</div>
 			<?php }
 				if (get_field('informacziya_zhilaya_ploshhad')) { ?>
 			<div class="col">
 				<p>Жилая площадь:</p>
-				<span><?php esc_html__(the_field('informacziya_zhilaya_ploshhad')); ?> м<sup>2</sup></span>
+				<span><?php esc_html(the_field('informacziya_zhilaya_ploshhad')); ?> м<sup>2</sup></span>
 			</div>
 			<?php }
 				if (get_field('informacziya_etazh')) { ?>
 			<div class="col">
 				<p>Этаж:</p>
-				<span><?php esc_html__(the_field('informacziya_etazh')); ?></span>
+				<span><?php esc_html(the_field('informacziya_etazh')); ?></span>
 			</div>
 			<?php }
 				if (get_field('informacziya_stoimost')) { ?>
@@ -62,7 +62,7 @@ defined('ABSPATH') || exit;
 			<div class="col-md-12">
 				<hr>
 				<p><strong>Адрес:</strong></p>
-				<p><?php esc_html__(the_field('informacziya_adres')); ?></p>
+				<p><?php esc_html(the_field('informacziya_adres')); ?></p>
 			</div>
 			<?php } ?>
 		</div>
@@ -88,7 +88,6 @@ defined('ABSPATH') || exit;
 				echo '<p class="lead"><a href="/realty/' . $value->post_name . '" >' . $value->post_title . '</a></p>';
 			}
 
-			// вернем $post Обратно
 			wp_reset_postdata();
 		}
 
