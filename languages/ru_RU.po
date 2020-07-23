@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Understrap Child\n"
+"POT-Creation-Date: 2020-07-23 06:01+0300\n"
+"PO-Revision-Date: 2020-07-23 06:02+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:35 functions.php:36 functions.php:49
+msgid "Property type"
+msgstr "Тип недвижимости"
+
+#: functions.php:37
+msgid "Find property Type"
+msgstr "Найти тип недвижимости"
+
+#: functions.php:38
+msgid "Popular Property Types"
+msgstr "Популярные типы недвижимости"
+
+#: functions.php:39
+msgid "All property types"
+msgstr "Все типы недвижимости"
+
+#: functions.php:42
+msgid "Edit property type"
+msgstr "Изменить тип недвижимости"
+
+#: functions.php:43
+msgid "Update property type"
+msgstr "Обновить тип недвижимости"
+
+#: functions.php:44
+msgid "Add property type"
+msgstr "Добавить тип недвижимости"
+
+#: functions.php:45
+msgid "New property name"
+msgstr "Новое название недвижимости"
+
+#: functions.php:46
+msgid "Separate the property type with commas"
+msgstr "Разделяйте тип недвижимости запятыми"
+
+#: functions.php:47
+msgid "Add or remove property type"
+msgstr "Добавить или удалить тип недвижимости"
+
+#: functions.php:48
+msgid "Choose from the most commonly used property types"
+msgstr "Выберите из наиболее часто используемых типов недвижимости"
+
+#: functions.php:69 functions.php:70 functions.php:80
+msgid "Realty"
+msgstr "Недвижимость"
+
+#: functions.php:71
+msgid "add property"
+msgstr "добавить недвижимость"
+
+#: functions.php:72
+msgid "add new property"
+msgstr "добавить новую недвижимость"
+
+#: functions.php:73
+msgid "edit property"
+msgstr "изменить недвижимость"
+
+#: functions.php:74
+msgid "new property"
+msgstr "новая  недвижимость"
+
+#: functions.php:75
+msgid "all properties"
+msgstr "вся недвижимость"
+
+#: functions.php:76
+msgid "Viewing real estate on the site"
+msgstr "Просмотр недвижимости на сайте"
+
+#: functions.php:77
+msgid "Search property"
+msgstr "Поиск недвижимости"
+
+#: functions.php:78
+msgid "property not found."
+msgstr "недвижимость не найдена."
+
+#: functions.php:79
+msgid "There is no property in the cart."
+msgstr "В корзине нет недвижимости."
+
+#: functions.php:104 functions.php:105 functions.php:115
+msgid "Cities"
+msgstr "Города"
+
+#: functions.php:106 functions.php:109
+msgid "add city"
+msgstr "добавить город"
+
+#: functions.php:107
+msgid "add new city"
+msgstr "добавить новый город"
+
+#: functions.php:108
+msgid "edit city"
+msgstr "изменить город"
+
+#: functions.php:110
+msgid "all cities"
+msgstr "все города"
+
+#: functions.php:111
+msgid "viewing the city on the site"
+msgstr "Просмотр города на сайте"
+
+#: functions.php:112
+msgid "search cities"
+msgstr "поиск города"
+
+#: functions.php:113
+msgid "city not found."
+msgstr "город не найден."
+
+#: functions.php:114
+msgid "There is no city in the cart."
+msgstr "В корзине нет города."
+
+#: loop-templates/content-single.php:100
+msgid "Pages:"
+msgstr "Страницы:"
+
+#. Theme Name of the plugin/theme
+msgid "Understrap Child"
+msgstr "Understrap Child"
+
+#. Description of the plugin/theme
+msgid "Understrap Child Theme"
+msgstr "Understrap Child Theme"
+
+#. Author of the plugin/theme
+msgid "Maxim Nosal"
+msgstr "Maxim Nosal"
+
+#~ msgid "Nothing Found"
+#~ msgstr "Ничего не найдено"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "Готовы опубликовать свой первый пост? <a href=\"%1$s\">Начните здесь</a>."
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Извините, но ничего не соответствует вашим условиям поиска. Пожалуйста, "
+#~ "попытайтесь снова с другими ключевыми словами."
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#~ msgid "Edit"
+#~ msgstr "Редактировать"
